@@ -1,0 +1,20 @@
+{
+  "name": "ryanaiien-info",
+  "version": "1.0.0",
+  "repository": "git@github.com:RyanAIIen/ryanaiien-info.git",
+  "author": "Ryan Allen <allenrya@umich.edu>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "python -m http.server --directory ./dist"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
