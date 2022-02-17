@@ -1,6 +1,6 @@
 const Home = () => {
     const element = document.createElement('div');
-    element.innerHTML = 'My website';
+    element.innerHTML = 'My Website';
     return element;
 }
 
