@@ -1,7 +1,8 @@
-const Home = () => {
-    const element = document.createElement('div');
-    element.innerHTML = 'My Website';
-    return element;
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-document.body.appendChild(Home());
+ReactDOM.render(
+    <React.StrictMode><App /></React.StrictMode>,
+    document.getElementById('app')
+);
